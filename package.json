@@ -1,12 +1,12 @@
 {
   "name": "@diff./config-manager",
-  "version": "1.0.3",
+  "version": "1.0.15",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "publish": "npm publish --access public"
+    "upload": "tsc; npm publish --access public"
   },
   "repository": {
     "type": "git",
