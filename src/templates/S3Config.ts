@@ -1,4 +1,6 @@
-export interface S3Config {
+import { ConfigData } from '../ConfigData';
+
+export interface S3Config extends ConfigData {
   s3: {
     buckets: {
       [key: string]: {

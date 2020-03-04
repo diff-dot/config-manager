@@ -1,4 +1,6 @@
-export class ConfigManager<T> {
+import { ConfigData } from './ConfigData';
+
+export class ConfigManager<T extends ConfigData> {
   private readonly PRODUCTION_ENV = 'production';
   private readonly DEVELOPMENT_ENV = 'development';
 
