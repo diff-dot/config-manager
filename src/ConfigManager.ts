@@ -33,6 +33,10 @@ export class ConfigManager<T extends ConfigData> {
     return this.env === env;
   }
 
+  public static debugMode() {
+    return process.env.DEBUG === 'true';
+  }
+
   public static get env(): string {
     return process.env.NODE_ENV || DEVELOPMENT_ENV;
   }
