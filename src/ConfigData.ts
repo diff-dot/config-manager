@@ -1,3 +1,2 @@
-export interface ConfigData {
-  // Noting yet.
-}
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+export interface ConfigData {}
